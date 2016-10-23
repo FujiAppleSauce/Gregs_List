@@ -1,0 +1,10 @@
+
+header { position: fixed; top: 0; left: 0; right: 0; height: 70px; background-color: #c9c8c8; border-bottom: 1px solid #808287; }
+
+h2 { display: inline-block; padding-left: 15px;}
+
+.wrap_link { position: absolute; right: 15px; top: 25px;}
+
+.hdr_link { font-size: 20px; margin-right: 10px; color: purple; text-decoration: none; }
+
+
