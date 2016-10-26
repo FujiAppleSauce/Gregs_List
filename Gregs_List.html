@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Greg's List | search</title>
+	<title>Greg's List | search</title>
   <meta charset="utf-8" name="description" content="Use Greg's List to search for a job">
 
-  <!-- fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-  <!-- reset --> 
-  <!-- may need to remove this line, not sure yet <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css"> -->
-
-  <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="search_page.css">
-  
+  <link rel="stylesheet" type="text/css" href="search.css">
+ 
 </head>
 
 <header>
-
-    <h2> Greg's List </h2>
-  <nav class="wrap_link">  
-      <a href="" class="hdr_link">Post</a>
-      <a href="" class="hdr_link">Account</a> 
-  </nav>
-  </header>
-
-<section>
-  
-
-
-  
-</section>
-
-
-
-<main>
-  
+	<h2> Greg's List </h2>
+	<nav class="wrap_link">
+		<a href="" class="hdr_link"> Post </a>
+		<a href="" class="hdr_link"> Account </a>
+	</nav>
+</header>
 
 
 
 <body>
 
+	<p> Search Jobs </p>
+	<form>
+		<input type="text" placeholder="Search software jobs" class="wrap_search">
+		<input type="image" name="image" src="magnifying-glass.png" class="wrap_search">
+	</form>
 
+	<div>
+		<a class="box box_lr" href=""> < prev </a>	
+		<p class="box box_ctr"> 1 to 100 of 179 </p>
+		<a class="box box_lr" href=""> next > </a>
 
+	</div>
+
+<main>
+
+	<ul class="job_list"> 
+		<li class="job_link">
+			<span class="date">June 22 </span>
+			<a href="#" class="job_title"> Technical Project Manager </a>
+			<span class="job_locn"> Midtown East </span>
+		</li>
+
+		<li class="job_link">
+			<span class="date">June 21 </span>
+			<a href="#" class="job_title"> Frontend Developer </a>
+			<span class="job_locn"> SoHo </span>
+		</li>
+
+		<li class="job_link">
+			<span class="date">June 20 </span>
+			<a href="#" class="job_title"> Senior Python Developer / Cofounder </a>
+			<span class="job_locn"> Flatiron </span>
+		</li>
+
+	</ul>
+
+</main>
 </body>
 
 
-</main>
 </html>
